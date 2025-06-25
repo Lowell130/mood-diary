@@ -1,6 +1,8 @@
 import tailwindcss from "@tailwindcss/vite";
+import colors from 'tailwindcss/colors'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  
   compatibilityDate: '2025-05-15',
    devtools: { enabled: true },
   css: ['~/assets/css/input.css'], // you'll have to create this file
@@ -9,4 +11,5 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  
 })
