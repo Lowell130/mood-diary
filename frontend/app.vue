@@ -1,3 +1,9 @@
+
+
 <template>
-    <div><NuxtPage /></div>
+  <div>
+    <moodHeader />
+    <NuxtPage />
+    <moodFooter />
+  </div>
 </template>
